@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.1.42",
+    "bluebird": "^2.9.34",
     "dotenv": "^1.2.0"
   },
   "devDependencies": {
@@ -32,6 +33,7 @@
     "sinon-chai": "^2.8.0"
   },
   "scripts": {
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
     "test": "gulp test",
     "lint": "gulp lint",
     "deploy": "gulp deploy",
