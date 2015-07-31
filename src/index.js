@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-import BPromise from "bluebird";
 
 import archive from "./archive";
 import getApplicationEvent from "./get-application-event";
@@ -11,4 +10,4 @@ export function handler (kinesisEvent, context) {
         .then(archive)
         .then(context.succeed)
         .then(context.fail);
-};
+}
