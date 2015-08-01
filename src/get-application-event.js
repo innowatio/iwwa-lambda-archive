@@ -6,7 +6,7 @@ export default function getApplicationEvent (kinesisEvent) {
         var data = new Buffer(
             kinesisEvent.Records[0].kinesis.data,
             "base64"
-        ).toString("ascii");
+        ).toString();
         return JSON.parse(data);
     });
 }

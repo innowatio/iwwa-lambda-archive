@@ -22,7 +22,7 @@
     "eslint": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
-    "gulp-eslint": "^0.15.0",
+    "gulp-eslint": "^1.0.0",
     "gulp-spawn-mocha": "^2.2.1",
     "gulp-zip": "^3.0.2",
     "istanbul": "^0.3.17",
