@@ -34,7 +34,7 @@ describe("`archive`", function () {
         archive(applicationEvent);
         expect(s3.putObject).to.have.been.calledWith({
             Bucket: "S3_BUCKET",
-            Key: "id",
+            Key: "1970/01/01/id",
             Body: JSON.stringify(applicationEvent, null, 4)
         });
     });
