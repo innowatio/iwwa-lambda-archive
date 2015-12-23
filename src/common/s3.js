@@ -5,4 +5,4 @@ var s3 = new S3({
     apiVersion: "2006-03-01"
 });
 
-export var putObject = promisify(s3.putObject, s3);
+export var putObject = promisify(s3.putObject, {context: s3});
