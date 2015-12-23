@@ -9,5 +9,5 @@ export function handler (kinesisEvent, context) {
     return getApplicationEvent(kinesisEvent)
         .then(archive)
         .then(context.succeed)
-        .then(context.fail);
+        .catch(context.fail);
 }
