@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/innowatio/lk-archive-to-s3.svg?branch=master)](https://travis-ci.org/innowatio/lk-archive-to-s3)
-[![Coverage Status](https://coveralls.io/repos/innowatio/lk-archive-to-s3/badge.svg?branch=master&service=github)](https://coveralls.io/github/innowatio/lk-archive-to-s3?branch=master)
-[![Dependency Status](https://david-dm.org/innowatio/lk-archive-to-s3.svg)](https://david-dm.org/innowatio/lk-archive-to-s3)
-[![devDependency Status](https://david-dm.org/innowatio/lk-archive-to-s3/dev-status.svg)](https://david-dm.org/innowatio/lk-archive-to-s3#info=devDependencies)
+[![Build Status](https://travis-ci.org/lk-architecture/lk-archive-to-s3.svg?branch=master)](https://travis-ci.org/lk-architecture/lk-archive-to-s3)
+[![codecov.io](https://codecov.io/github/lk-architecture/lk-archive-to-s3/coverage.svg?branch=master)](https://codecov.io/github/lk-architecture/lk-archive-to-s3?branch=master)
+[![Dependency Status](https://david-dm.org/lk-architecture/lk-archive-to-s3.svg)](https://david-dm.org/lk-architecture/lk-archive-to-s3)
+[![devDependency Status](https://david-dm.org/lk-architecture/lk-archive-to-s3/dev-status.svg)](https://david-dm.org/lk-architecture/lk-archive-to-s3#info=devDependencies)
 
 # lk-archive-to-s3
 
@@ -12,7 +12,7 @@ Archive Kinesis events on S3.
 ### Continuous deployment
 
 Since the project uses TravisCI and
-[`lambda-deploy`](https://github.com/innowatio/lambda-deploy/) for continuous
+[`lambda-deploy`](https://github.com/lk-architecture/lambda-deploy/) for continuous
 deployment, the following environment variables need to be set:
 
 - `AWS_SECRET_ACCESS_KEY`
