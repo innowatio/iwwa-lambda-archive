@@ -12,8 +12,7 @@
     "bluebird": "^3.1.1",
     "bunyan": "^1.5.1",
     "dotenv": "^1.2.0",
-    "moment": "^2.10.6",
-    "ramda": "^0.19.1"
+    "moment": "^2.10.6"
   },
   "devDependencies": {
     "babel": "^5.6.23",
@@ -22,7 +21,7 @@
     "babel-plugin-rewire": "^0.1.7",
     "chai": "^3.1.0",
     "chai-as-promised": "^5.1.0",
-    "coveralls": "^2.11.2",
+    "codecov": "^1.0.1",
     "eslint": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
@@ -34,6 +33,7 @@
     "lambda-deploy": "^2.1.0",
     "mocha": "^2.2.5",
     "pro-gulp": "^0.3.0",
+    "ramda": "^0.19.1",
     "sinon": "^1.15.4",
     "sinon-chai": "^2.8.0"
   },
