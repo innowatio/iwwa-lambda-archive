@@ -1,13 +1,15 @@
-import dotenv from "dotenv";
+import {map} from "bluebird";
 
-import archive from "./archive";
-import getApplicationEvent from "./get-application-event";
+import {S3_PUT_CONCURRENCY} from "./config";
+import archiveEvent from "./archive-event";
+import getEvents from "./get-events";
 
-dotenv.load();
-
-export function handler (kinesisEvent, context) {
-    return getApplicationEvent(kinesisEvent)
-        .then(archive)
-        .then(context.succeed)
-        .catch(context.fail);
+export async function handler (kinesisEvent, context) {
+    try {
+        const events = getEvents(kinesisEvent);
+        await map(events, archiveEvent, {concurrency: S3_PUT_CONCURRENCY});
+        context.succeed();
+    } catch (err) {
+        context.fail(err);
+    }
 }

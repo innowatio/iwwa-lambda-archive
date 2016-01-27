@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/innowatio/iwwa-lambda-archive.svg?branch=master)](https://travis-ci.org/innowatio/iwwa-lambda-archive)
-[![Coverage Status](https://coveralls.io/repos/innowatio/iwwa-lambda-archive/badge.svg?branch=master&service=github)](https://coveralls.io/github/innowatio/iwwa-lambda-archive?branch=master)
-[![Dependency Status](https://david-dm.org/innowatio/iwwa-lambda-archive.svg)](https://david-dm.org/innowatio/iwwa-lambda-archive)
-[![devDependency Status](https://david-dm.org/innowatio/iwwa-lambda-archive/dev-status.svg)](https://david-dm.org/innowatio/iwwa-lambda-archive#info=devDependencies)
+[![Build Status](https://travis-ci.org/innowatio/lk-archive-to-s3.svg?branch=master)](https://travis-ci.org/innowatio/lk-archive-to-s3)
+[![Coverage Status](https://coveralls.io/repos/innowatio/lk-archive-to-s3/badge.svg?branch=master&service=github)](https://coveralls.io/github/innowatio/lk-archive-to-s3?branch=master)
+[![Dependency Status](https://david-dm.org/innowatio/lk-archive-to-s3.svg)](https://david-dm.org/innowatio/lk-archive-to-s3)
+[![devDependency Status](https://david-dm.org/innowatio/lk-archive-to-s3/dev-status.svg)](https://david-dm.org/innowatio/lk-archive-to-s3#info=devDependencies)
 
-# iwwa-lambda-archive
+# lk-archive-to-s3
 
 Archive Kinesis events on S3.
 
