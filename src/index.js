@@ -1,3 +1,4 @@
+import "babel/polyfill";
 import {map} from "bluebird";
 
 import {S3_PUT_CONCURRENCY} from "./config";
