@@ -42,7 +42,6 @@
     "clean": "rimraf coverage",
     "coverage": "NODE_PATH=src NODE_ENV=test babel-node $(npm bin)/isparta cover $(npm bin)/_mocha -- --recursive",
     "codecov": "codecov",
-    "deploy": "gulp deploy",
     "dev": "npm test -- --watch",
     "lint": "eslint src test",
     "test": "NODE_PATH=src NODE_ENV=test mocha --compilers js:babel/register --recursive"
