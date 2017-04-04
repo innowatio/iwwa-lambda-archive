@@ -38,6 +38,7 @@
     "sinon-chai": "^2.8.0"
   },
   "scripts": {
+    "build": "babel src -d bundle",
     "clean": "rimraf coverage",
     "coverage": "NODE_PATH=src NODE_ENV=test babel-node $(npm bin)/isparta cover $(npm bin)/_mocha -- --recursive",
     "codecov": "codecov",
